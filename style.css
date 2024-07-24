@@ -31,6 +31,7 @@
 }
 
 .navbar_nav_navi_list>a:hover {
+    font-size: 22px;
     color: #FF9C28;
     transition: 0.4s;
 }
@@ -44,6 +45,14 @@
     padding: 2px 4px;
     border-radius: 5px;
     background-color: #404864;
+    transition: 0.4s;
+}
+
+.navbar_search:hover {
+    border-radius: 7px;
+    width: 194px;
+    height: 34px;
+    transition: 0.4s;
 }
 
 .navbar_search>input {
@@ -65,6 +74,13 @@
     width: 130px;
     height: 30px;
     border-radius: 5px;
+    transition: 0.4s;
+}
+
+.navbar_select:hover{
+    width: 134px;
+    height: 34px;
+    transition: 0.4s;
 }
 
 .navbar_left {
@@ -111,9 +127,6 @@ h1 {
     font-weight: 400;
     color: #FFFFFF;
     text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5) inset;
-    /* background: linear-gradient(90deg, #aaa, #000, #aaa);
-    -webkit-background-clip: text;
-    color: transparent;} */
     background: linear-gradient(180deg, #ffffff, #ffffff, #ffffff, #949494, #3f3f3f);
     -webkit-background-clip: text;
     color: transparent;
